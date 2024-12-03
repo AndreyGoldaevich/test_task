@@ -1,0 +1,23 @@
+{
+  "name": "task-test",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.8.0",
+    "nuxt": "^3.14.1592",
+    "pinia": "^2.2.8",
+    "socket.io-client": "^4.8.1",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "overrides": {
+    "vue": "latest"
+  }
+}
